@@ -87,7 +87,18 @@ jobs:
           name: nightfox-vscode-extension
           path: '*.vsix'
 
-      - name: Upload VSIX to Github Releases
+      - name: Create GitHub Release with VSIX
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.publish == 'true'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ env.NEW_VERSION }}
+          name: Release v${{ env.NEW_VERSION }}
+          files: '*.vsix'
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload VSIX to existing GitHub Release
         if: github.event_name == 'release'
         uses: softprops/action-gh-release@v1
         with:
