@@ -2,7 +2,7 @@
   "name": "nightfox-theme-collections",
   "displayName": "Nightfox Theme Collections",
   "description": "A highly customizable themes for VSCode, ported from nightfox.nvim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "nuromirg",
   "license": "MIT",
   "icon": "images/nightfox_vscode.png",
