@@ -43,7 +43,7 @@ A dark, colorful theme
 
 1. Open VSCode
 2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
-3. Search for "Nightfox"
+3. Search for "Nightfox Theme Collections"
 4. Click Install
 5. Go to Settings → Color Theme and select your preferred Nightfox variant
 

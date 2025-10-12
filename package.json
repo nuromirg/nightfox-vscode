@@ -4,12 +4,18 @@
   "description": "A highly customizable themes for VSCode, ported from nightfox.nvim",
   "version": "1.0.0",
   "publisher": "nuromirg",
+  "license": "MIT",
+  "icon": "images/nightfox_vscode.png",
   "engines": {
     "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
   ],
+  "galleryBanner": {
+    "color": "#1c1c1c",
+    "theme": "dark"
+  },
   "keywords": [
     "theme",
     "dark theme",
