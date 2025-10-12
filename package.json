@@ -1,7 +1,7 @@
 {
   "name": "nightfox-theme-collections",
-  "displayName": "Nightfox",
-  "description": "A highly customizable theme for VSCode, ported from nightfox.nvim",
+  "displayName": "Nightfox Theme Collections",
+  "description": "A highly customizable themes for VSCode, ported from nightfox.nvim",
   "version": "1.0.0",
   "publisher": "nuromirg",
   "engines": {
