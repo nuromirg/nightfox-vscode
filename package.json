@@ -1,0 +1,68 @@
+{
+  "name": "nightfox",
+  "displayName": "Nightfox",
+  "description": "A highly customizable theme for VSCode, ported from nightfox.nvim",
+  "version": "1.0.0",
+  "publisher": "nuromirg",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "light theme",
+    "nightfox",
+    "carbonfox",
+    "dawnfox",
+    "dayfox",
+    "duskfox",
+    "nordfox",
+    "terafox"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nightfox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightfox.json"
+      },
+      {
+        "label": "Carbonfox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbonfox.json"
+      },
+      {
+        "label": "Dawnfox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dawnfox.json"
+      },
+      {
+        "label": "Dayfox",
+        "uiTheme": "vs",
+        "path": "./themes/dayfox.json"
+      },
+      {
+        "label": "Duskfox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/duskfox.json"
+      },
+      {
+        "label": "Nordfox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nordfox.json"
+      },
+      {
+        "label": "Terafox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/terafox.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuromirg/nightfox-vscode"
+  }
+}
