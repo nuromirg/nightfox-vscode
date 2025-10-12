@@ -86,3 +86,11 @@ jobs:
         with:
           name: nightfox-vscode-extension
           path: '*.vsix'
+
+      - name: Upload VSIX to Github Releases
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v1
+        with:
+          files: '*.vsix'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

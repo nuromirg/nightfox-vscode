@@ -1,6 +1,11 @@
-# Nightfox for VSCode
+# Nightfox Theme Collections
 
-A highly customizable theme for VSCode, ported from [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim).
+A collection of vibrant color themes for Visual Studio Code and compatible editors, ported from [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim).
+
+[![VS Marketplace](https://img.shields.io/visual-studio-marketplace/v/nuromirg.nightfox-theme-collections?style=for-the-badge&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=nuromirg.nightfox-theme-collections)
+[![Open VSX](https://img.shields.io/open-vsx/v/nuromirg/nightfox-theme-collections?style=for-the-badge&label=Open%20VSX&logo=eclipse-ide)](https://open-vsx.org/extension/nuromirg/nightfox-theme-collections)
+
+Compatible with **Visual Studio Code**, **VSCodium**, **Cursor**, and other VSCode-based editors.
 
 ## Themes
 
@@ -41,11 +46,15 @@ A dark, colorful theme
 
 ## Installation
 
-1. Open VSCode
+1. Open your editor (Visual Studio Code, VSCodium, Cursor, etc.)
 2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
-3. Search for "Nightfox Theme Collections"
+3. Search for **Nightfox Theme Collections**
 4. Click Install
-5. Go to Settings → Color Theme and select your preferred Nightfox variant
+5. Go to Settings, choose Color Theme and select your preferred Nightfox variant
+
+Alternatively, install directly from:
+- [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=nuromirg.nightfox-theme-collections)
+- [Open VSX Registry](https://open-vsx.org/extension/nuromirg/nightfox-theme-collections)
 
 ## Features
 
