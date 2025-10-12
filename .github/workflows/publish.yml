@@ -75,7 +75,9 @@ jobs:
 
       - name: Publish to Open VSX Registry
         if: github.event_name == 'release' || github.event.inputs.publish == 'true'
-        run: ovsx publish -p ${{ secrets.OVSX_PAT }}
+        run: |
+          echo "Publishing to Open VSX..."
+          ovsx publish -p ${{ secrets.OVSX_PAT }} || echo "::warning::Open VSX publish failed."
         env:
           OVSX_PAT: ${{ secrets.OVSX_PAT }}
 
