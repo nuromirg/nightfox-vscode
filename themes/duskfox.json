@@ -1,5 +1,6 @@
 {
   "colors": {
+    "focusBorder": "#6E6A85",
     "button.background": "#569fba",
     "button.foreground": "#191726",
     "button.hoverBackground": "#65b1cd",
@@ -163,12 +164,12 @@
     "tab.inactiveForeground": "#6e6a86",
     "tab.border": "#191726",
     "tab.activeBorder": "#569fba",
-    "tab.activeBorderTop": "#569fba",
+    "tab.activeBorderTop": "default",
     "tab.unfocusedActiveBorder": "#4b4673",
     "editorGroup.border": "#4b4673",
     "editorGroupHeader.tabsBackground": "#191726",
     "editorGroupHeader.noTabsBackground": "#191726",
-    "panel.background": "#191726",
+    "panel.background": "#232136",
     "panel.border": "#4b4673",
     "panelTitle.activeBorder": "#569fba",
     "panelTitle.activeForeground": "#e0def4",
